@@ -74,7 +74,6 @@ export default {
   created() {},
   
   mounted() {
-    console.log(process.env.VUE_APP_API_GOOGLE_PLACES)
     this.addLocationsToGoogleMaps();
   },
   
